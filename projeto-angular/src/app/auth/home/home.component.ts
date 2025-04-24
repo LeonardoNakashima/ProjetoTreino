@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './laboratorio-germinares.component.html',
   styleUrl: './laboratorio-germinares.component.css'
 })
-export class LaboratorioGerminaresComponent {
+export class HomeComponent {
 
 }

@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { LaboratorioGerminaresComponent } from './auth/laboratorio-germinares/laboratorio-germinares.component';
+import { HomeComponent } from './auth/home/home.component';
 import { HeaderComponent } from './layout/header/header.component';
 
 export const routes: Routes = [
-    { path: '', component: HeaderComponent, children: [{ path: 'laboratorio-germinares', component: LaboratorioGerminaresComponent }] },
+    { path: '', component: HeaderComponent, children: [{ path: 'laboratorio-germinares', component: HomeComponent }] },
 ];
