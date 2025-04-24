@@ -17,10 +17,10 @@ export class LoginComponent {
 
   fazerLogin(): void {
     // Aqui você validaria o login, e ao sucesso:
-    this.router.navigate(['Home']); // navega para o filho 'home' do layout
+    this.router.navigate(['home']); // navega para o filho 'home' do layout
   }
   fazerCadastro() {
-    console.log("Cadastrado!")
+    this.router.navigate(['cadastro']);
   }
   
 }
