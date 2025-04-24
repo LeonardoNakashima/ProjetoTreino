@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './layout/header/header.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { LaboratorioGerminaresComponent } from './pages/laboratorio-germinares/laboratorio-germinares.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, HeaderComponent, SidebarComponent, LaboratorioGerminaresComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
