@@ -1,0 +1,20 @@
+<div class="auth-container">
+    <div class="breadcrumb">Início &gt; <strong>Laboratório de Germinares</strong></div>
+    <h1>Laboratório de Germinares</h1>
+    <p>Realize o login! Caso seja seu primeiro acesso, faça o cadastro.</p>
+  
+    <form>
+      <input type="email" placeholder="E-mail" name="email" required />
+      <input type="password" placeholder="Senha" name="password" required />
+  
+      <div class="button-group">
+        <button type="button" class="btn primary" (click)="fazerCadastro()">
+          Cadastrar
+        </button>
+        <button type="submit" class="btn secondary" (click)="fazerLogin()">
+          Fazer login
+        </button>   
+      </div>
+    </form>
+  </div>
+  
