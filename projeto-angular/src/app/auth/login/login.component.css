@@ -1,58 +1,83 @@
+.main-content {
+  margin-left: 80px;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: flex-start;
+}
+
+
 .auth-container {
-    max-width: 400px;
-    margin: 60px auto;
-    padding: 30px;
-    border-radius: 12px;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    font-family: Arial, sans-serif;
-    margin-top: 200px;
-  }
-  
-  .breadcrumb {
-    color: #888;
-    margin-bottom: 10px;
-  }
-  
-  h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    margin-bottom: 20px;
-  }
-  
-  input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 16px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-  }
-  
-  .button-group {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .btn {
-    padding: 10px 18px;
-    border: none;
-    border-radius: 6px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .btn.primary {
-    background-color: #21c25e;
-    color: #fff;
-  }
-  
-  .btn.secondary {
-    background-color: transparent;
-    color: #11613c;
-    border: 2px solid #21c25e;
-  }
-  
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+}
+
+
+.breadcrumb {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.button-group {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.primary {
+  background-color: #21c25e;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #1aad55;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  color: #11613c;
+  border: 2px solid #21c25e;
+}
+
+.btn.secondary:hover {
+  background-color: #e9f9f0;
+}
