@@ -14,6 +14,6 @@ export class CadastroComponent {
   constructor(private router: Router) {}
   fazerCadastro() {
     this.router.navigate(['']);
-    console.log("Cadastrado!")
+    alert("Cadastrado!")
   }
 }

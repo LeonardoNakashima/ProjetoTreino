@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../../layout/header/header.component';
 import { SidebarComponent } from '../../layout/sidebar/sidebar.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -9,5 +10,8 @@ import { SidebarComponent } from '../../layout/sidebar/sidebar.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  constructor(private router: Router) {}
+  irGraficos(){
+    this.router.navigate(['grafico']);
+  }
 }

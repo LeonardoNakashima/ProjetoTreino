@@ -72,12 +72,14 @@ input {
   background-color: #1aad55;
 }
 
-.btn.secondary {
-  background-color: transparent;
-  color: #11613c;
-  border: 2px solid #21c25e;
-}
+
 
 .btn.secondary:hover {
   background-color: #e9f9f0;
+}
+
+
+img{
+  width: 16px; 
+  height: 16px;
 }

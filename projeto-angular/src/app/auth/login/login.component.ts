@@ -15,9 +15,11 @@ export class LoginComponent {
   constructor(private router: Router) {}
 
 
-  fazerLogin(): void {
+  fazerLogin(){
     // Aqui você validaria o login, e ao sucesso:
-    this.router.navigate(['home']); // navega para o filho 'home' do layout
+      this.router.navigate(['home']);
+      alert("Login efetuado com sucesso!");
+    
   }
   fazerCadastro() {
     this.router.navigate(['cadastro']);
