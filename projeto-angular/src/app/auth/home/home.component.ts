@@ -14,4 +14,8 @@ export class HomeComponent {
   irGraficos(){
     this.router.navigate(['grafico']);
   }
+
+  irNotas(){
+    this.router.navigate(['notas']);
+  }
 }
